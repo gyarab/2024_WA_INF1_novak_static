@@ -53,6 +53,11 @@ p {
   padding: 20px 0;
 }
 
+.section p {
+  margin-bottom: 10px;
+  text-indent: 20px;
+}
+
 .section__title {
   font-size: 30px;
   margin-bottom: 16px;
@@ -105,4 +110,18 @@ p {
 
 #table tr:nth-child(even) {
   background: #f2f2f2;
+}
+
+.hero {
+  background-image: url("./hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+  color: #fff;
+}
+
+.hero__title {
+  font-size: 50px;
+  margin-bottom: 20px;
 }
